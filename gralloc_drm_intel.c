@@ -559,7 +559,7 @@ static void intel_unmap(struct gralloc_drm_drv_t *drv,
 		drm_intel_bo_unmap(ib->ibo);
 }
 
-#include "intel_chipset.h" /* for platform detection macros */
+#include "intel/intel_chipset.h" /* for platform detection macros */
 static void intel_init_kms_features(struct gralloc_drm_drv_t *drv,
 		struct gralloc_drm_t *drm)
 {
